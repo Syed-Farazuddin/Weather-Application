@@ -45,7 +45,7 @@ public class myServlet extends HttpServlet {
 		String inputData = request.getParameter("input");
 		System.out.println(inputData);
 		String apiKey = "6be99bfe41c7aabe4c1915a26620bb59";
-		String apiurl = "https://api.openweathermap.org/data/2.5/weather?q="+ inputData + "&appid=" + apiKey;
+		String apiurl = "urlApi/weather?q="+ inputData + "&appid=" + apiKey;
 
 		
 //		API INTEGRATION
